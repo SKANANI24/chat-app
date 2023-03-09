@@ -16,6 +16,7 @@ export default function GuestGuard({ children }: GuestGuardProps) {
     if (localStorage.getItem('apiToken') !== null) {
       navigate('/chat')
     }
+    //eslint-disable-next-line
   }, [])
   
 
