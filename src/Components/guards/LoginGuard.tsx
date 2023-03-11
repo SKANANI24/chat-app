@@ -14,6 +14,7 @@ export default function LoginGuard({ children }: LoginGuardProps) {
       if (localStorage.getItem('apiToken') !== null) {
         navigate('/')
       }
+      //eslint-disable-next-line
   }, [])
   
 
